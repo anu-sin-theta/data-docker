@@ -48,6 +48,7 @@ print(s)
 n= s.reshape(-1)#-1 ka matlab hai ki jitne bhi rows ho utne hi columns ho aur vice versa
 print(n)
 
-
-
+print(np.zeros((2,3),dtype="int16"))
+print("linspace function:")
+print(np.linspace(1,10,50))#linspace function is used to create an array of evenly spaced numbers
 

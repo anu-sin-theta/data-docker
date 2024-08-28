@@ -95,4 +95,7 @@ df.boxplot(column=["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"
 plt.show()
 batdf = pd.read_csv("batter.csv")
 #selecting 50 top players randomly
-
+sampledata = [10,20,30,40]
+subject = ['english','math','hindi']
+plt.pie(sampledata,lables=subject)
+plt.show()
